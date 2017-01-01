@@ -1,22 +1,22 @@
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../static/bootstrap.min.css">
-<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="./static/bootstrap.min.css">
+<link rel="stylesheet" href="./static/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<title></title>
+<title>Welcome — helloworld</title>
 <body class="container-fluid bg-faded">
     <header>
         <nav class="navbar navbar-light navbar-fixed-top bg-faded">
           <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
             <ul class="nav navbar-nav collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-              <li  class="nav-item" ><a href="../" class="nav-link">Welcome</a></li>
+              <li  class="active nav-item" ><a href="./" class="nav-link">Welcome</a></li>
               
-              <li class="active nav-item"  ><a href="../blog/" class="nav-link">Blog</a></li>
+              <li class="nav-item" ><a href="./blog/" class="nav-link">Blog</a></li>
               
-              <li class="nav-item" ><a href="../projects/" class="nav-link">Projects</a></li>
+              <li class="nav-item" ><a href="./projects/" class="nav-link">Projects</a></li>
               
-              <li class="nav-item" ><a href="../about/" class="nav-link">About</a></li>
+              <li class="nav-item" ><a href="./about/" class="nav-link">About</a></li>
               
             </ul>
         </nav>
@@ -28,41 +28,15 @@
       </div>
       <div class="page col-xl-6 col-xl-offset-1 col-lg-7 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-10 col-sm-offset-1">
           
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/first-post/">Hello Website</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      Kyunglyul Hyun
-    
-    on 2017-01-01
-  </p>
-  <p>This is an example blog post.  Not much here but that's not the point :)</p>
-
-  </div>
-
-  
-
-  
-  <div class="pagination">
-    
-      <span class="disabled">&laquo; Previous</span>
-    
-    | 1 |
-    
-      <span class="disabled">Next &raquo;</span>
-    
-  </div>
+  <h2>Welcome</h2>
+  <p>This is a basic demo website that shows how to use Lektor for a basic
+website with some pages and a blog.</p>
 
 
       </div>
     </section>
 
     <footer class="col-md-12 col-sm-12">
-        &copy; Copyright 2016 by Kyunglyul Hyun
+        &copy; Copyright 2016 by ...
     </footer>
 </body>
